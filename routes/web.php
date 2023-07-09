@@ -12,3 +12,5 @@ Route::get('/', function () {
 });
 
 Route::get('/admin',[AdminController::class,'index']);
+
+Route::get('/list',[AdminController::class,'list']);
